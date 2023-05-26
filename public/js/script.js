@@ -1,4 +1,4 @@
-const apiURL = "https://deprem.afad.gov.tr/last-earthquakes.html";
+const apiURL = "https://api.orhanaydogdu.com.tr/deprem/live.php";
 const tableBody = document.getElementById("deprem-tablosu");
 
 fetch(apiURL)
